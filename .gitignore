@@ -1,0 +1,23 @@
+.anchor
+.DS_Store
+# Ignore everything in the target directory
+/target
+/target/debug
+/target/release
+/target/idl
+/target/sbf-solana-solana
+/target/types
+/target/.rustc_info.json
+target/deploy/*.so
+/sdk
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+.idea
+yarn.lock
+*.log
+*.sh
+/keys
+/migrations
+package-lock.json
